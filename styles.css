@@ -1,0 +1,35 @@
+.canvas{
+    margin: 10px;
+    height: 600px;
+    width: 600px;
+    background-color: teal;
+    position: relative;
+}
+
+.canvas-container{
+    height: 600px;
+}
+.specs{
+    display:flex;
+    flex-direction: column;
+    margin-left: 630px;
+}
+li{
+    width: 400px;
+    background-color: rgb(253, 143, 244);
+    border: 1px black solid;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 3px;
+}
+.form{
+    border: black solid 1px;
+    background-color: coral;
+    border-radius: 5px;
+    padding: 10px;
+    width: 600px;
+    margin: 10px;
+}
+.shapes{
+    position: absolute;
+}

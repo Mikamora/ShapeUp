@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Up or Shape Out!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="form" action="">
+        <div>
+            <input type="text" name="rectangle-height" id="rectangle-height" placeholder="rectangle-height">
+        </div>
+        <div>
+            <input type="text" name="rectangle-width" id="rectangle-width" placeholder="rectangle-width">
+            <button type="button" class="rectangle">Submit Rectangle</button>
+        </div>
+        <div>
+            <input type="text" name="square-length" id="square-length" placeholder="square-length">
+            <button type="button" class="square">Submit Square</button>
+        </div>
+        <div>
+            <input type="text" name="circle-radius" id="circle-radius" placeholder="circle-radius">
+            <button type="button" class="circle">Submit Circle</button>
+        </div>
+        <div>
+            <input type="text" name="triangle-height" id="triangle-height" placeholder="triangle-height">
+            <button type="button" class="triangle">Submit Triangle</button>
+        </div>
+
+    </form>
+    <div class="canvas-container">
+        <div class="canvas">
+        <div class="specs">
+                <li id="Shape">Shape Name:</li>
+                <li id="Width">Width:</li>
+                <li id="Height">Height:</li>
+                <li id="Radius">Radius:</li>
+                <li id="Area">Area:</li>
+                <li id="Perimeter">Perimeter:</li>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
